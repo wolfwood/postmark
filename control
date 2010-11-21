@@ -1,0 +1,16 @@
+Source: postmark
+Section: utils
+Priority: extra
+Maintainer: Noèl Köthe <noel@debian.org>
+Standards-Version: 3.6.2
+Build-Depends: debhelper
+
+Package: postmark
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: File system benchmark from NetApp
+ Benchmark that's based around small file operations similar to those used on
+ large mail servers and news servers.  Has been ported to NT so should be good
+ for comparing OSs.
+ .
+ http://www.netapp.com/tech_library/postmark.html
